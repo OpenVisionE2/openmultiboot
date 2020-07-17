@@ -45,7 +45,7 @@
 #define OMB_SCREEN_BPP 32
 #define OMB_APP_NAME "open-multiboot"
 #define OMB_APP_VERION "1.0"
-#define OMB_DISPLAY_NAME "openMultiboot"
+#define OMB_DISPLAY_NAME "OpenMultiboot"
 #ifndef OMB_DEFAULT_TIMER
 #define OMB_DEFAULT_TIMER 5
 #endif
