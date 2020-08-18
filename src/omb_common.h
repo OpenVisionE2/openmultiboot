@@ -45,7 +45,7 @@
 #define OMB_SCREEN_BPP 32
 #define OMB_APP_NAME "open-multiboot"
 #define OMB_APP_VERION "1.0"
-#define OMB_DISPLAY_NAME "openMultiboot"
+#define OMB_DISPLAY_NAME "OpenMultiboot"
 #ifndef OMB_DEFAULT_TIMER
 #define OMB_DEFAULT_TIMER 5
 #endif
@@ -60,7 +60,7 @@
 #define OMB_NANDWRITE_BIN "/usr/sbin/nandwrite"
 #define OMB_FLASHERASE_BIN "/usr/sbin/flash_erase"
 #define OMB_PYTHON_BIN "/usr/bin/python"
-#define OMB_BRANDING_HELPER_BIN "/sbin/open-multiboot-branding-helper.py"
+#define OMB_BRANDING_HELPER_BIN "/sbin/open-multiboot-branding-helper.pyo"
 #define OMB_DD_BIN "/bin/dd"
 
 #define OMB_MENU_ITEM_RADIUS 10
