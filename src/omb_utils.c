@@ -33,7 +33,6 @@
 #include "omb_common.h"
 #include "omb_log.h"
 #include "omb_utils.h"
-#include "omb_branding.h"
 
 #define OMB_FS_MAX 3
 static const char *omb_utils_fs_types[OMB_FS_MAX] = { "ext4", "ext3" };
@@ -232,13 +231,13 @@ omb_device_item *omb_utils_get_images()
 	for(i=0;i<n_images_entries;i++) {
 		image_entry = json_object_array_get_idx(images_entries, i);
 		json_object_object_get_ex(image_entry, "label", &label);
-		printf("%lu. %s\n",i+1,json_object_get_string(label));
+//		printf("%lu. %s\n",i+1,json_object_get_string(label));
 		json_object_object_get_ex(image_entry, "path", &path);
-		printf("   %s\n",json_object_get_string(path));
+//		printf("   %s\n",json_object_get_string(path));
 		json_object_object_get_ex(image_entry, "identifier", &identifier);
-		printf("   %s\n",json_object_get_string(identifier));
+//		printf("   %s\n",json_object_get_string(identifier));
 		json_object_object_get_ex(image_entry, "background", &background);
-		printf("   %s\n",json_object_get_string(background));
+//		printf("   %s\n",json_object_get_string(background));
 //		json_object_object_get_ex(image_entry, "kernelbin", &kernelbin);
 //		printf("   %s\n",json_object_get_string(kernelbin));
 //		json_object_object_get_ex(image_entry, "labelfile", &labelfile);
